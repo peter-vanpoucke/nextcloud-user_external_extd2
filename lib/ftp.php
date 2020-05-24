@@ -15,7 +15,7 @@
  * @license  http://www.gnu.org/licenses/agpl AGPL
  * @link     http://github.com/owncloud/apps
  */
-class OC_User_FTP extends \OCA\user_external\Base{
+class OC_User_FTP_extd2 extends \OCA\user_external_extd2\Base{
 	private $host;
 	private $secure;
 	private $protocol;

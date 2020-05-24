@@ -17,7 +17,7 @@
  */
 
 
-class OC_User_SSH extends \OCA\user_external\Base {
+class OC_User_SSH_extd2 extends \OCA\user_external_extd2\Base {
 	private $host;
   private $port;
 

@@ -6,9 +6,9 @@
  * See the COPYING-README file.
  */
 
-namespace OCA\user_external;
+namespace OCA\user_external_extd2;
 
-class WebDavAuth extends Base {
+class WebDavAuth_extd2 extends Base {
 
 	private $webDavAuthUrl;
 

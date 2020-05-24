@@ -24,7 +24,7 @@ class Test_User_BasicAuth extends \Test\TestCase {
 	protected function setUp() {
 		parent::setUp();
 		$config=$this->getConfig();
-		$this->instance=new OC_User_BasicAuth($config['basic_auth']['url']);
+		$this->instance=new OC_User_BasicAuth_extd2($config['basic_auth']['url']);
 	}
 
 	function testLogin() {

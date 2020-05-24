@@ -14,7 +14,7 @@
  * @author   Sebastian Sterk https://wiuwiu.de/Imprint
  * @license  http://www.gnu.org/licenses/agpl AGPL
  */
-class OC_User_XMPP extends \OCA\user_external\Base {
+class OC_User_XMPP_extd2 extends \OCA\user_external_extd2\Base {
 	private $host;
 	private $xmppDb;
 	private $xmppDbUser;

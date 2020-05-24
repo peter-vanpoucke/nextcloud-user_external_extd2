@@ -6,7 +6,7 @@
  * See the COPYING-README file.
  */
 
-class OC_User_BasicAuth extends \OCA\user_external\Base {
+class OC_User_BasicAuth_extd2 extends \OCA\user_external_extd2\Base {
 
 	private $authUrl;
 

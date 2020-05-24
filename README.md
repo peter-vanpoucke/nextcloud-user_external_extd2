@@ -1,5 +1,5 @@
-External user authentication
-============================
+External user authentication Extd2
+==================================
 **Authenticate user login against IMAP, SMB, FTP, WebDAV, HTTP BasicAuth, SSH and XMPP**
 
 Passwords are not stored locally; authentication always happens against

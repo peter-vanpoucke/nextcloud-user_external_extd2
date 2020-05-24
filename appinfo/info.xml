@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
 	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
-	<id>user_external</id>
-	<name>External user authentication</name>
+	<id>user_external_extd2</id>
+	<name>External user authentication extended 2</name>
 	<summary>Use external user authentication methods like IMAP, SMB, FTP, WebDAV, HTTP BasicAuth, SSH and XMPP</summary>
 	<description><![CDATA[Use external user authentication methods to give users acces to your Nextcloud instance:
 
@@ -14,7 +14,7 @@
 * SSH
 * XMPP
 
-Read the [documentation](https://github.com/nextcloud/user_external#readme) to learn how to configure it!
+Read the [documentation](https://github.com/peter-vanpoucke/nextcloud-user_external_extd2#readme) to learn how to configure it!
     ]]></description>
 	<version>0.10.0</version>
 	<licence>agpl</licence>
@@ -24,13 +24,12 @@ Read the [documentation](https://github.com/nextcloud/user_external#readme) to l
 		<authentication/>
 	</types>
 	<documentation>
-		<admin>https://github.com/nextcloud/user_external#readme</admin>
+		<admin>https://github.com/peter-vanpoucke/nextcloud-user_external_extd2#readme</admin>
 	</documentation>
 	<category>tools</category>
 	<category>integration</category>
-	<website>https://github.com/nextcloud/user_external/</website>
-	<bugs>https://github.com/nextcloud/user_external/issues</bugs>
-	<repository type="git">https://github.com/nextcloud/user_external.git</repository>
+	<website>https://github.com/peter-vanpoucke/nextcloud-user_external_extd2/</website>
+	<repository type="git">https://github.com/peter-vanpoucke/nextcloud-user_external_extd2.git</repository>
 	<dependencies>
 		<nextcloud min-version="15" max-version="19" />
 	</dependencies>

@@ -25,7 +25,7 @@ class Test_User_Imap extends \Test\TestCase {
 		parent::setUp();
 
 		$config=$this->getConfig();
-		$this->instance=new OC_User_IMAP($config['imap']['mailbox']);
+		$this->instance=new OC_User_IMAP_extd2($config['imap']['mailbox']);
 	}
 
 	function testLogin() {

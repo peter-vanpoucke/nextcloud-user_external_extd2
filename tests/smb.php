@@ -25,7 +25,7 @@ class Test_User_SMB extends \Test\TestCase {
 		parent::setUp();
 
 		$config=$this->getConfig();
-		$this->instance=new OC_User_SMB($config['smb']['host']);
+		$this->instance=new OC_User_SMB_extd2($config['smb']['host']);
 	}
 
 	function testLogin() {
